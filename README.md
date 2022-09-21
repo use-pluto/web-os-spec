@@ -1,7 +1,7 @@
 # web-os-standard v0.1
 Open-source standard for the protocol handler web+os
 
-The web os standard allows for compatible use of web OSes. It is a simple web protocol, `web+os` that allows for information to be shared between many web desktops. This is done by registering a Protocol Handler on the `navigator` object inside `window`, using `navigator.registerProtocolHandler`. Not only can information be shared from a web OS to a web OS, but a normal website and even anything that supports HTTP can use it.
+The web os standard allows for compatible use of web OSes. It is a simple web protocol, `web+os` that allows for information to be shared between many web desktops. This is done by registering a Protocol Handler on the `navigator` object inside `window`, using `navigator.registerProtocolHandler`. To learn more about this method, read the [MDN docs](https://caniuse.com/registerprotocolhandler) and view the [specification](https://html.spec.whatwg.org/multipage/system-state.html#custom-handlers). Not only can information be shared from a web OS to a web OS, but a normal website and even anything that supports HTTP can use it.
 > ![](.github/registerProtocolHandler.png)
 > A website registering the service worker  
 
