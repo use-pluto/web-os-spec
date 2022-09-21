@@ -3,8 +3,9 @@ Open-source standard for the protocol handler web+os
 
 The web os standard allows for compatible use of web OSes. It is a simple web protocol, `web+os` that allows for information to be shared between many web desktops. This is done by registering a Protocol Handler on the `navigator` object inside `window`, using `navigator.registerProtocolHandler`. Not only can information be shared from a web OS to a web OS, but a normal website and even anything that supports HTTP can use it.
 > ![](.github/registerProtocolHandler.png)
-> A website registering the service worker
+> A website registering the service worker  
 
+**Important:** `window.navigator.registerProtocolHandler` only works on Chrome, Edge, Firefox, and Opera. It does not work on any mobile browsers. For more info, see the [caniuse](https://caniuse.com/registerprotocolhandler) page.
 ## Protocol
 Your Web OS protocol URL can take two approaches; one executing an app, command, or module (we'll just call this 'app') and the other leading to a file, directory, or drive (we'll just call this 'file'). The part(s) after `web+os:` are called elements.
 ### App approach
