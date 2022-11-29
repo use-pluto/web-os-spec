@@ -1,7 +1,7 @@
 function register() {
   navigator.registerProtocolHandler(
     "web+os",
-    "https://system41.github.io/web-os-standard/?protocol=%s",
+    "https://system41.github.io/web-os-standard/demo?protocol=%s",
     "web-os handler"
   );
   content.innerHTML = `Tried to register protocol handler, visit a link such as <a href="web+os:directory/file.txt">this one</a> to see if it was successful`;
