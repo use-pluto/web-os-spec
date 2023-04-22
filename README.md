@@ -1,7 +1,4 @@
 # web-os-spec
-Spec for interacting with web OSes via the protocol handler `web+os`
-
-# Software Requirements Specification
 ## For web desktops
 Version 1.0 approved  
 Prepared by its-pablo  
